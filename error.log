@@ -1,0 +1,164 @@
+[Fri Oct 02 11:47:15.266916 2015] [core:alert] [pid 82674] [client 127.0.0.1:51828] /www/codeigniter/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Oct 02 11:47:22.300502 2015] [core:alert] [pid 82675] [client 127.0.0.1:51840] /www/codeigniter/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Oct 02 11:47:35.121416 2015] [core:alert] [pid 82381] [client 127.0.0.1:51848] /www/codeigniter/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Oct 02 11:47:40.731774 2015] [core:alert] [pid 82314] [client 127.0.0.1:51856] /www/codeigniter/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Fri Oct 02 11:59:37.096163 2015] [:error] [pid 82941] [client 127.0.0.1:52352] PHP Parse error:  syntax error, unexpected '_' (T_STRING) in /www/codeigniter/application/controllers/Signin.php on line 21
+[Fri Oct 02 11:59:37.096272 2015] [:error] [pid 82941] [client 127.0.0.1:52352] PHP Stack trace:
+[Fri Oct 02 11:59:37.096332 2015] [:error] [pid 82941] [client 127.0.0.1:52352] PHP   1. {main}() /www/codeigniter/index.php:0
+[Fri Oct 02 11:59:37.096358 2015] [:error] [pid 82941] [client 127.0.0.1:52352] PHP   2. require_once() /www/codeigniter/index.php:292
+[Fri Oct 02 11:59:49.519042 2015] [:error] [pid 82943] [client 127.0.0.1:52370] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /www/codeigniter/application/models/Signin_model.php on line 14
+[Fri Oct 02 11:59:49.519210 2015] [:error] [pid 82943] [client 127.0.0.1:52370] PHP Stack trace:
+[Fri Oct 02 11:59:49.519255 2015] [:error] [pid 82943] [client 127.0.0.1:52370] PHP   1. {main}() /www/codeigniter/index.php:0
+[Fri Oct 02 11:59:49.519326 2015] [:error] [pid 82943] [client 127.0.0.1:52370] PHP   2. require_once() /www/codeigniter/index.php:292
+[Fri Oct 02 11:59:49.519349 2015] [:error] [pid 82943] [client 127.0.0.1:52370] PHP   3. Signin->__construct() /www/codeigniter/system/core/CodeIgniter.php:500
+[Fri Oct 02 11:59:49.519368 2015] [:error] [pid 82943] [client 127.0.0.1:52370] PHP   4. CI_Loader->model() /www/codeigniter/application/controllers/Signin.php:9
+[Fri Oct 09 09:41:36.286448 2015] [:error] [pid 54955] [client 127.0.0.1:57623] PHP Fatal error:  Call to a member function view() on null in /www/codeigniter/application/controllers/PhoneListing.php on line 13, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:41:36.286887 2015] [:error] [pid 54955] [client 127.0.0.1:57623] PHP Stack trace:, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:41:36.287192 2015] [:error] [pid 54955] [client 127.0.0.1:57623] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:41:36.287206 2015] [:error] [pid 54955] [client 127.0.0.1:57623] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:41:36.287217 2015] [:error] [pid 54955] [client 127.0.0.1:57623] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:41:36.287228 2015] [:error] [pid 54955] [client 127.0.0.1:57623] PHP   4. PhoneListing->index() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:43:51.199563 2015] [:error] [pid 54960] [client 127.0.0.1:57741] PHP Fatal error:  Call to a member function view() on null in /www/codeigniter/application/controllers/PhoneListing.php on line 15, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:43:51.199880 2015] [:error] [pid 54960] [client 127.0.0.1:57741] PHP Stack trace:, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:43:51.199930 2015] [:error] [pid 54960] [client 127.0.0.1:57741] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:43:51.199957 2015] [:error] [pid 54960] [client 127.0.0.1:57741] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:43:51.199969 2015] [:error] [pid 54960] [client 127.0.0.1:57741] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:43:51.199981 2015] [:error] [pid 54960] [client 127.0.0.1:57741] PHP   4. PhoneListing->index() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:43:52.475377 2015] [:error] [pid 54958] [client 127.0.0.1:57742] PHP Fatal error:  Call to a member function view() on null in /www/codeigniter/application/controllers/PhoneListing.php on line 15, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:43:52.475460 2015] [:error] [pid 54958] [client 127.0.0.1:57742] PHP Stack trace:, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:43:52.475496 2015] [:error] [pid 54958] [client 127.0.0.1:57742] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:43:52.475512 2015] [:error] [pid 54958] [client 127.0.0.1:57742] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:43:52.475523 2015] [:error] [pid 54958] [client 127.0.0.1:57742] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:43:52.475534 2015] [:error] [pid 54958] [client 127.0.0.1:57742] PHP   4. PhoneListing->index() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:44:15.777760 2015] [:error] [pid 26295] [client 127.0.0.1:57765] PHP Fatal error:  Call to a member function view() on null in /www/codeigniter/application/controllers/PhoneListing.php on line 13, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:44:15.777846 2015] [:error] [pid 26295] [client 127.0.0.1:57765] PHP Stack trace:, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:44:15.777879 2015] [:error] [pid 26295] [client 127.0.0.1:57765] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:44:15.777890 2015] [:error] [pid 26295] [client 127.0.0.1:57765] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:44:15.777900 2015] [:error] [pid 26295] [client 127.0.0.1:57765] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:44:15.777910 2015] [:error] [pid 26295] [client 127.0.0.1:57765] PHP   4. PhoneListing->index() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:50:43.493249 2015] [:error] [pid 54955] [client 127.0.0.1:58045] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /www/codeigniter/application/views/header_page.php on line 31, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:50:43.493595 2015] [:error] [pid 54955] [client 127.0.0.1:58045] PHP Stack trace:, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:50:43.493641 2015] [:error] [pid 54955] [client 127.0.0.1:58045] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:50:43.493667 2015] [:error] [pid 54955] [client 127.0.0.1:58045] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:50:43.493678 2015] [:error] [pid 54955] [client 127.0.0.1:58045] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:50:43.493689 2015] [:error] [pid 54955] [client 127.0.0.1:58045] PHP   4. PhoneListing->index() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:50:43.493711 2015] [:error] [pid 54955] [client 127.0.0.1:58045] PHP   5. CI_Loader->view() /www/codeigniter/application/controllers/PhoneListing.php:14, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:50:43.493722 2015] [:error] [pid 54955] [client 127.0.0.1:58045] PHP   6. CI_Loader->_ci_load() /www/codeigniter/system/core/Loader.php:459, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:51:36.303689 2015] [:error] [pid 54953] [client 127.0.0.1:58080] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /www/codeigniter/application/views/header_page.php on line 31, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:51:36.303778 2015] [:error] [pid 54953] [client 127.0.0.1:58080] PHP Stack trace:, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:51:36.303809 2015] [:error] [pid 54953] [client 127.0.0.1:58080] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:51:36.303825 2015] [:error] [pid 54953] [client 127.0.0.1:58080] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:51:36.303836 2015] [:error] [pid 54953] [client 127.0.0.1:58080] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:51:36.303848 2015] [:error] [pid 54953] [client 127.0.0.1:58080] PHP   4. PhoneListing->index() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:51:36.303859 2015] [:error] [pid 54953] [client 127.0.0.1:58080] PHP   5. CI_Loader->view() /www/codeigniter/application/controllers/PhoneListing.php:14, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:51:36.303870 2015] [:error] [pid 54953] [client 127.0.0.1:58080] PHP   6. CI_Loader->_ci_load() /www/codeigniter/system/core/Loader.php:459, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:52:01.996785 2015] [:error] [pid 54956] [client 127.0.0.1:58098] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /www/codeigniter/application/views/header_page.php on line 31, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:52:01.997120 2015] [:error] [pid 54956] [client 127.0.0.1:58098] PHP Stack trace:, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:52:01.997159 2015] [:error] [pid 54956] [client 127.0.0.1:58098] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:52:01.997172 2015] [:error] [pid 54956] [client 127.0.0.1:58098] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:52:01.997183 2015] [:error] [pid 54956] [client 127.0.0.1:58098] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:52:01.997194 2015] [:error] [pid 54956] [client 127.0.0.1:58098] PHP   4. PhoneListing->index() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:52:01.997205 2015] [:error] [pid 54956] [client 127.0.0.1:58098] PHP   5. CI_Loader->view() /www/codeigniter/application/controllers/PhoneListing.php:14, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:52:01.997216 2015] [:error] [pid 54956] [client 127.0.0.1:58098] PHP   6. CI_Loader->_ci_load() /www/codeigniter/system/core/Loader.php:459, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:53:38.460414 2015] [:error] [pid 26295] [client 127.0.0.1:58167] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /www/codeigniter/application/views/header_page.php on line 42, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:53:38.460727 2015] [:error] [pid 26295] [client 127.0.0.1:58167] PHP Stack trace:, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:53:38.460764 2015] [:error] [pid 26295] [client 127.0.0.1:58167] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:53:38.460783 2015] [:error] [pid 26295] [client 127.0.0.1:58167] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:53:38.460793 2015] [:error] [pid 26295] [client 127.0.0.1:58167] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:53:38.460804 2015] [:error] [pid 26295] [client 127.0.0.1:58167] PHP   4. PhoneListing->index() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:53:38.460814 2015] [:error] [pid 26295] [client 127.0.0.1:58167] PHP   5. CI_Loader->view() /www/codeigniter/application/controllers/PhoneListing.php:14, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:53:38.460823 2015] [:error] [pid 26295] [client 127.0.0.1:58167] PHP   6. CI_Loader->_ci_load() /www/codeigniter/system/core/Loader.php:459, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:05.068173 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /www/codeigniter/application/views/header_page.php on line 42, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:05.068252 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP Stack trace:, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:05.068270 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:05.068281 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:05.068290 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:05.068301 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP   4. PhoneListing->index() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:05.068312 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP   5. CI_Loader->view() /www/codeigniter/application/controllers/PhoneListing.php:14, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:05.068322 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP   6. CI_Loader->_ci_load() /www/codeigniter/system/core/Loader.php:459, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:06.283275 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /www/codeigniter/application/views/header_page.php on line 42, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:06.283418 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP Stack trace:, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:06.283435 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:06.283462 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:06.283474 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:06.283486 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP   4. PhoneListing->index() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:06.283498 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP   5. CI_Loader->view() /www/codeigniter/application/controllers/PhoneListing.php:14, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:06.283522 2015] [:error] [pid 293] [client 127.0.0.1:58184] PHP   6. CI_Loader->_ci_load() /www/codeigniter/system/core/Loader.php:459, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:36.227987 2015] [:error] [pid 54955] [client 127.0.0.1:58210] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /www/codeigniter/application/views/header_page.php on line 42, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:36.229960 2015] [:error] [pid 54955] [client 127.0.0.1:58210] PHP Stack trace:, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:36.229984 2015] [:error] [pid 54955] [client 127.0.0.1:58210] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:36.229996 2015] [:error] [pid 54955] [client 127.0.0.1:58210] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:36.230007 2015] [:error] [pid 54955] [client 127.0.0.1:58210] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:36.230018 2015] [:error] [pid 54955] [client 127.0.0.1:58210] PHP   4. PhoneListing->index() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:36.230029 2015] [:error] [pid 54955] [client 127.0.0.1:58210] PHP   5. CI_Loader->view() /www/codeigniter/application/controllers/PhoneListing.php:14, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 09:54:36.230040 2015] [:error] [pid 54955] [client 127.0.0.1:58210] PHP   6. CI_Loader->_ci_load() /www/codeigniter/system/core/Loader.php:459, referer: http://codeigniter/PhoneListing
+[Fri Oct 09 10:32:24.631756 2015] [:error] [pid 54958] [client 127.0.0.1:60040] PHP Fatal error:  Call to a member function set_error_delimiters() on null in /www/codeigniter/application/controllers/CreateNew.php on line 20, referer: http://codeigniter/CreateNew
+[Fri Oct 09 10:32:24.636676 2015] [:error] [pid 54958] [client 127.0.0.1:60040] PHP Stack trace:, referer: http://codeigniter/CreateNew
+[Fri Oct 09 10:32:24.636737 2015] [:error] [pid 54958] [client 127.0.0.1:60040] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/CreateNew
+[Fri Oct 09 10:32:24.636785 2015] [:error] [pid 54958] [client 127.0.0.1:60040] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/CreateNew
+[Fri Oct 09 10:32:24.636797 2015] [:error] [pid 54958] [client 127.0.0.1:60040] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/CreateNew
+[Fri Oct 09 10:32:24.636808 2015] [:error] [pid 54958] [client 127.0.0.1:60040] PHP   4. CreateNew->save() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/CreateNew
+[Fri Oct 09 10:33:46.274369 2015] [:error] [pid 293] [client 127.0.0.1:60104] PHP Parse error:  syntax error, unexpected '}' in /www/codeigniter/application/controllers/CreateNew.php on line 50, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:33:46.274452 2015] [:error] [pid 293] [client 127.0.0.1:60104] PHP Stack trace:, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:33:46.274484 2015] [:error] [pid 293] [client 127.0.0.1:60104] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:33:46.274495 2015] [:error] [pid 293] [client 127.0.0.1:60104] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:45:48.860429 2015] [:error] [pid 54956] [client 127.0.0.1:60603] PHP Fatal error:  Call to a member function save() on null in /www/codeigniter/application/controllers/CreateNew.php on line 53, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:45:48.860520 2015] [:error] [pid 54956] [client 127.0.0.1:60603] PHP Stack trace:, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:45:48.860567 2015] [:error] [pid 54956] [client 127.0.0.1:60603] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:45:48.860579 2015] [:error] [pid 54956] [client 127.0.0.1:60603] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:45:48.860589 2015] [:error] [pid 54956] [client 127.0.0.1:60603] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:45:48.860599 2015] [:error] [pid 54956] [client 127.0.0.1:60603] PHP   4. CreateNew->save() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:49:09.934029 2015] [:error] [pid 26295] [client 127.0.0.1:60735] PHP Fatal error:  Call to a member function save() on null in /www/codeigniter/application/controllers/CreateNew.php on line 53, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:49:09.934161 2015] [:error] [pid 26295] [client 127.0.0.1:60735] PHP Stack trace:, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:49:09.934207 2015] [:error] [pid 26295] [client 127.0.0.1:60735] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:49:09.934220 2015] [:error] [pid 26295] [client 127.0.0.1:60735] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:49:09.934231 2015] [:error] [pid 26295] [client 127.0.0.1:60735] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:49:09.934242 2015] [:error] [pid 26295] [client 127.0.0.1:60735] PHP   4. CreateNew->save() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:52:46.510336 2015] [:error] [pid 54960] [client 127.0.0.1:60889] PHP Fatal error:  Call to a member function save() on null in /www/codeigniter/application/controllers/CreateNew.php on line 53, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:52:46.510423 2015] [:error] [pid 54960] [client 127.0.0.1:60889] PHP Stack trace:, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:52:46.510462 2015] [:error] [pid 54960] [client 127.0.0.1:60889] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:52:46.510481 2015] [:error] [pid 54960] [client 127.0.0.1:60889] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:52:46.510492 2015] [:error] [pid 54960] [client 127.0.0.1:60889] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:52:46.510503 2015] [:error] [pid 54960] [client 127.0.0.1:60889] PHP   4. CreateNew->save() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:56:12.009423 2015] [:error] [pid 293] [client 127.0.0.1:61026] PHP Fatal error:  Call to a member function set_userdata() on null in /www/codeigniter/application/controllers/CreateNew.php on line 59, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:56:12.009493 2015] [:error] [pid 293] [client 127.0.0.1:61026] PHP Stack trace:, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:56:12.009505 2015] [:error] [pid 293] [client 127.0.0.1:61026] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:56:12.009516 2015] [:error] [pid 293] [client 127.0.0.1:61026] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:56:12.009526 2015] [:error] [pid 293] [client 127.0.0.1:61026] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:56:12.009548 2015] [:error] [pid 293] [client 127.0.0.1:61026] PHP   4. CreateNew->save() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:58:58.161629 2015] [:error] [pid 54955] [client 127.0.0.1:61144] PHP Fatal error:  Call to undefined function redirect() in /www/codeigniter/application/controllers/CreateNew.php on line 60, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:58:58.161709 2015] [:error] [pid 54955] [client 127.0.0.1:61144] PHP Stack trace:, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:58:58.161728 2015] [:error] [pid 54955] [client 127.0.0.1:61144] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:58:58.161739 2015] [:error] [pid 54955] [client 127.0.0.1:61144] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:58:58.161749 2015] [:error] [pid 54955] [client 127.0.0.1:61144] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 10:58:58.161759 2015] [:error] [pid 54955] [client 127.0.0.1:61144] PHP   4. CreateNew->save() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/CreateNew/save
+[Fri Oct 09 11:08:43.405752 2015] [:error] [pid 54959] [client 127.0.0.1:61532] PHP Fatal error:  Call to a member function save() on null in /www/codeigniter/application/controllers/Abonent.php on line 58, referer: http://codeigniter/abonent
+[Fri Oct 09 11:08:43.406087 2015] [:error] [pid 54959] [client 127.0.0.1:61532] PHP Stack trace:, referer: http://codeigniter/abonent
+[Fri Oct 09 11:08:43.406107 2015] [:error] [pid 54959] [client 127.0.0.1:61532] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/abonent
+[Fri Oct 09 11:08:43.406118 2015] [:error] [pid 54959] [client 127.0.0.1:61532] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/abonent
+[Fri Oct 09 11:08:43.406137 2015] [:error] [pid 54959] [client 127.0.0.1:61532] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent
+[Fri Oct 09 11:08:43.406147 2015] [:error] [pid 54959] [client 127.0.0.1:61532] PHP   4. Abonent->save() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent
+[Fri Oct 09 11:36:15.772186 2015] [:error] [pid 54953] [client 127.0.0.1:62677] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /www/codeigniter/application/controllers/Abonent.php on line 15, referer: http://codeigniter/
+[Fri Oct 09 11:36:15.772371 2015] [:error] [pid 54953] [client 127.0.0.1:62677] PHP Stack trace:, referer: http://codeigniter/
+[Fri Oct 09 11:36:15.772388 2015] [:error] [pid 54953] [client 127.0.0.1:62677] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/
+[Fri Oct 09 11:36:15.772399 2015] [:error] [pid 54953] [client 127.0.0.1:62677] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/
+[Fri Oct 09 11:36:24.980147 2015] [:error] [pid 54955] [client 127.0.0.1:62694] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /www/codeigniter/application/controllers/Abonent.php on line 13, referer: http://codeigniter/
+[Fri Oct 09 11:36:24.980230 2015] [:error] [pid 54955] [client 127.0.0.1:62694] PHP Stack trace:, referer: http://codeigniter/
+[Fri Oct 09 11:36:24.980244 2015] [:error] [pid 54955] [client 127.0.0.1:62694] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/
+[Fri Oct 09 11:36:24.980261 2015] [:error] [pid 54955] [client 127.0.0.1:62694] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/
+[Fri Oct 09 11:37:20.314635 2015] [:error] [pid 54961] [client 127.0.0.1:62749] PHP Fatal error:  Cannot redeclare Abonent::newAbonent() in /www/codeigniter/application/controllers/Abonent.php on line 21, referer: http://codeigniter/abonent/newAbonent
+[Fri Oct 09 11:37:20.314720 2015] [:error] [pid 54961] [client 127.0.0.1:62749] PHP Stack trace:, referer: http://codeigniter/abonent/newAbonent
+[Fri Oct 09 11:37:20.314732 2015] [:error] [pid 54961] [client 127.0.0.1:62749] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/abonent/newAbonent
+[Fri Oct 09 11:37:20.314741 2015] [:error] [pid 54961] [client 127.0.0.1:62749] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/abonent/newAbonent
+[Fri Oct 09 11:38:02.074450 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in /www/codeigniter/application/controllers/Abonent.php on line 21, referer: http://codeigniter/abonent/newAbonent
+[Fri Oct 09 11:38:02.074542 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP Stack trace:, referer: http://codeigniter/abonent/newAbonent
+[Fri Oct 09 11:38:02.074557 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/abonent/newAbonent
+[Fri Oct 09 11:38:02.074573 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/abonent/newAbonent
+[Fri Oct 09 11:38:03.818470 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in /www/codeigniter/application/controllers/Abonent.php on line 21, referer: http://codeigniter/
+[Fri Oct 09 11:38:03.818552 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP Stack trace:, referer: http://codeigniter/
+[Fri Oct 09 11:38:03.818564 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/
+[Fri Oct 09 11:38:03.818574 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/
+[Fri Oct 09 11:38:05.136165 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in /www/codeigniter/application/controllers/Abonent.php on line 21
+[Fri Oct 09 11:38:05.136240 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP Stack trace:
+[Fri Oct 09 11:38:05.136253 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP   1. {main}() /www/codeigniter/index.php:0
+[Fri Oct 09 11:38:05.136264 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP   2. require_once() /www/codeigniter/index.php:292
