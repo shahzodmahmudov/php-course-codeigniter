@@ -162,3 +162,54 @@
 [Fri Oct 09 11:38:05.136240 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP Stack trace:
 [Fri Oct 09 11:38:05.136253 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP   1. {main}() /www/codeigniter/index.php:0
 [Fri Oct 09 11:38:05.136264 2015] [:error] [pid 54958] [client 127.0.0.1:62778] PHP   2. require_once() /www/codeigniter/index.php:292
+[Wed Oct 14 23:34:04.046224 2015] [:error] [pid 51249] [client 127.0.0.1:56023] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ':' in /www/codeigniter/application/views/abonent_page.php on line 43, referer: http://codeigniter/abonent/newAbonent
+[Wed Oct 14 23:34:04.046611 2015] [:error] [pid 51249] [client 127.0.0.1:56023] PHP Stack trace:, referer: http://codeigniter/abonent/newAbonent
+[Wed Oct 14 23:34:04.046637 2015] [:error] [pid 51249] [client 127.0.0.1:56023] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/abonent/newAbonent
+[Wed Oct 14 23:34:04.046654 2015] [:error] [pid 51249] [client 127.0.0.1:56023] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/abonent/newAbonent
+[Wed Oct 14 23:34:04.046665 2015] [:error] [pid 51249] [client 127.0.0.1:56023] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent/newAbonent
+[Wed Oct 14 23:34:04.046677 2015] [:error] [pid 51249] [client 127.0.0.1:56023] PHP   4. Abonent->listAbonent() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent/newAbonent
+[Wed Oct 14 23:34:04.046699 2015] [:error] [pid 51249] [client 127.0.0.1:56023] PHP   5. CI_Loader->view() /www/codeigniter/application/controllers/Abonent.php:29, referer: http://codeigniter/abonent/newAbonent
+[Wed Oct 14 23:34:04.046710 2015] [:error] [pid 51249] [client 127.0.0.1:56023] PHP   6. CI_Loader->_ci_load() /www/codeigniter/system/core/Loader.php:459, referer: http://codeigniter/abonent/newAbonent
+[Thu Oct 15 00:21:56.347049 2015] [:error] [pid 51247] [client 127.0.0.1:58401] PHP Parse error:  syntax error, unexpected ',' in /www/codeigniter/application/models/Abonentmodel.php on line 76, referer: http://codeigniter/abonent
+[Thu Oct 15 00:21:56.352490 2015] [:error] [pid 51247] [client 127.0.0.1:58401] PHP Stack trace:, referer: http://codeigniter/abonent
+[Thu Oct 15 00:21:56.352550 2015] [:error] [pid 51247] [client 127.0.0.1:58401] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/abonent
+[Thu Oct 15 00:21:56.352569 2015] [:error] [pid 51247] [client 127.0.0.1:58401] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/abonent
+[Thu Oct 15 00:21:56.352733 2015] [:error] [pid 51247] [client 127.0.0.1:58401] PHP   3. Abonent->__construct() /www/codeigniter/system/core/CodeIgniter.php:500, referer: http://codeigniter/abonent
+[Thu Oct 15 00:21:56.352766 2015] [:error] [pid 51247] [client 127.0.0.1:58401] PHP   4. CI_Loader->model() /www/codeigniter/application/controllers/Abonent.php:13, referer: http://codeigniter/abonent
+[Thu Oct 15 00:23:46.198426 2015] [:error] [pid 25560] [client 127.0.0.1:58494] PHP Fatal error:  Call to undefined method AbonentModel::last_query() in /www/codeigniter/application/models/Abonentmodel.php on line 77, referer: http://codeigniter/abonent
+[Thu Oct 15 00:23:46.204574 2015] [:error] [pid 25560] [client 127.0.0.1:58494] PHP Stack trace:, referer: http://codeigniter/abonent
+[Thu Oct 15 00:23:46.204685 2015] [:error] [pid 25560] [client 127.0.0.1:58494] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/abonent
+[Thu Oct 15 00:23:46.204728 2015] [:error] [pid 25560] [client 127.0.0.1:58494] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/abonent
+[Thu Oct 15 00:23:46.204756 2015] [:error] [pid 25560] [client 127.0.0.1:58494] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent
+[Thu Oct 15 00:23:46.204785 2015] [:error] [pid 25560] [client 127.0.0.1:58494] PHP   4. Abonent->remove() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent
+[Thu Oct 15 00:23:46.204812 2015] [:error] [pid 25560] [client 127.0.0.1:58494] PHP   5. AbonentModel->deleteAbonent() /www/codeigniter/application/controllers/Abonent.php:47, referer: http://codeigniter/abonent
+[Thu Oct 15 00:36:54.930129 2015] [:error] [pid 51249] [client 127.0.0.1:59071] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::row_result() in /www/codeigniter/application/models/Abonentmodel.php on line 42, referer: http://codeigniter/abonent
+[Thu Oct 15 00:36:54.935269 2015] [:error] [pid 51249] [client 127.0.0.1:59071] PHP Stack trace:, referer: http://codeigniter/abonent
+[Thu Oct 15 00:36:54.935298 2015] [:error] [pid 51249] [client 127.0.0.1:59071] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/abonent
+[Thu Oct 15 00:36:54.935317 2015] [:error] [pid 51249] [client 127.0.0.1:59071] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/abonent
+[Thu Oct 15 00:36:54.935329 2015] [:error] [pid 51249] [client 127.0.0.1:59071] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent
+[Thu Oct 15 00:36:54.935343 2015] [:error] [pid 51249] [client 127.0.0.1:59071] PHP   4. Abonent->edit() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent
+[Thu Oct 15 00:36:54.935368 2015] [:error] [pid 51249] [client 127.0.0.1:59071] PHP   5. AbonentModel->getAbonentByID() /www/codeigniter/application/controllers/Abonent.php:65, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:08.849402 2015] [:error] [pid 25557] [client 127.0.0.1:59126] PHP Fatal error:  Cannot use object of type stdClass as array in /www/codeigniter/application/models/Abonentmodel.php on line 43, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:08.849508 2015] [:error] [pid 25557] [client 127.0.0.1:59126] PHP Stack trace:, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:08.849529 2015] [:error] [pid 25557] [client 127.0.0.1:59126] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:08.849540 2015] [:error] [pid 25557] [client 127.0.0.1:59126] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:08.849551 2015] [:error] [pid 25557] [client 127.0.0.1:59126] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:08.849563 2015] [:error] [pid 25557] [client 127.0.0.1:59126] PHP   4. Abonent->edit() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:08.849574 2015] [:error] [pid 25557] [client 127.0.0.1:59126] PHP   5. AbonentModel->getAbonentByID() /www/codeigniter/application/controllers/Abonent.php:65, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:11.654447 2015] [:error] [pid 25561] [client 127.0.0.1:59128] PHP Fatal error:  Cannot use object of type stdClass as array in /www/codeigniter/application/models/Abonentmodel.php on line 43, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:11.654562 2015] [:error] [pid 25561] [client 127.0.0.1:59128] PHP Stack trace:, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:11.654588 2015] [:error] [pid 25561] [client 127.0.0.1:59128] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:11.654603 2015] [:error] [pid 25561] [client 127.0.0.1:59128] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:11.654617 2015] [:error] [pid 25561] [client 127.0.0.1:59128] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:11.654632 2015] [:error] [pid 25561] [client 127.0.0.1:59128] PHP   4. Abonent->edit() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:11.654647 2015] [:error] [pid 25561] [client 127.0.0.1:59128] PHP   5. AbonentModel->getAbonentByID() /www/codeigniter/application/controllers/Abonent.php:65, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:34.204766 2015] [:error] [pid 25558] [client 127.0.0.1:59145] PHP Fatal error:  Call to a member function getID() on null in /www/codeigniter/application/views/abonent_page.php on line 73, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:34.204844 2015] [:error] [pid 25558] [client 127.0.0.1:59145] PHP Stack trace:, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:34.204862 2015] [:error] [pid 25558] [client 127.0.0.1:59145] PHP   1. {main}() /www/codeigniter/index.php:0, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:34.204873 2015] [:error] [pid 25558] [client 127.0.0.1:59145] PHP   2. require_once() /www/codeigniter/index.php:292, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:34.204883 2015] [:error] [pid 25558] [client 127.0.0.1:59145] PHP   3. call_user_func_array:{/www/codeigniter/system/core/CodeIgniter.php:514}() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:34.204893 2015] [:error] [pid 25558] [client 127.0.0.1:59145] PHP   4. Abonent->edit() /www/codeigniter/system/core/CodeIgniter.php:514, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:34.204915 2015] [:error] [pid 25558] [client 127.0.0.1:59145] PHP   5. CI_Loader->view() /www/codeigniter/application/controllers/Abonent.php:69, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:34.204925 2015] [:error] [pid 25558] [client 127.0.0.1:59145] PHP   6. CI_Loader->_ci_load() /www/codeigniter/system/core/Loader.php:459, referer: http://codeigniter/abonent
+[Thu Oct 15 00:38:34.204934 2015] [:error] [pid 25558] [client 127.0.0.1:59145] PHP   7. include() /www/codeigniter/system/core/Loader.php:928, referer: http://codeigniter/abonent
